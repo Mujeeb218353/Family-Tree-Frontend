@@ -12,7 +12,7 @@ import {
   Calendar,
 } from "lucide-react";
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://assignment-submission-app-backend-j.vercel.app/api";
 
 export default function FamilyTreeApp() {
   const [token, setToken] = useState(localStorage.getItem("token"));
